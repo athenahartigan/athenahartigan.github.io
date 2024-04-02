@@ -14,7 +14,7 @@ body {
   font-size: 16px;
   color: rgb(19, 0, 78);
   padding: 0 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: serif, Georgia;
   background-color: rgb(230, 248, 252);
 }
 
@@ -58,6 +58,18 @@ h1, h2, h3 {
   margin-right: auto;
   width: 40%; 
   height: auto;
+}
+
+.section_line {
+  border-bottom: 1px solid rgb(19, 0, 78);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.info_line{
+  border-bottom: 1px dotted rgba(20, 0, 78, 0.221);
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media (prefers-color-scheme: dark) {
