@@ -1,58 +1,84 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Athena Hartigan</title>
 
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
+  <meta name="author" content="Athena Hartigan">
+  <meta name="keywords" content="Athena, Hartigan,Wake Forest,Computer,Science">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
 
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
-
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="quiz_app">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <title>quiz_app</title>
-  <link rel="manifest" href="manifest.json">
-
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=INSERT-YOUR-ID"></script>
   <script>
-    // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "2606143769";
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'INSERT-YOUR-ID');
   </script>
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
 </head>
+
 <body>
-  <script>
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
-            appRunner.runApp();
-          });
-        }
-      });
-    });
-  </script>
+  <div class="intro container">
+    <div class="bio">
+      <p><img src="athenahartiganheadshot.jpeg" alt="Photo of Athena Hartigan" class="center_circle"></p>
+      <h1>Athena Hartigan</h1>
+      <p> I'm a 3rd year CS student at <a href="https://cs.wfu.edu/">Wake Forest</a>. MORE EXPLANATION OF WHO YOU ARE AND WHAT YOU ARE INTERESTED IN</p>
+
+      <p> MORE INFORMATION ABOUT YOU, IF NEEDED</p>
+
+      <p>You can reach me at <a href="mailto:hartag21@wfu.edu">email</a>. </p>
+
+      <span class="contact">
+        <a href="https://www.linkedin.com/in/athenahartigan/">LinkedIn</a> &nbsp/&nbsp
+        <a href="https://github.com/athenahartigan/projects">Github</a>
+      </span>
+      <br>
+
+      <h1>Projects</h1>
+      <p><img src="https://athenahartigan.github.io/nonfollowers" alt="INSERT RELEVANT PICTURE" class="center_circle"></p>
+      <p> DESCRIPTION OF THE PROJECT AND YOUR INVOLVEMENT</p>
+      <p> ACKNOWLEDGMENT OF OTHERS/ORGANIZATION</p>
+      <p> <a href="GITHUB PROJECT LINK">GitHub Project Link</a> </p>
+      <br>
+
+      <h1>Projects</h1>
+      <p><img src="https://athenahartigan.github.io/nonfollowers" alt="INSERT RELEVANT PICTURE" class="center_circle"></p>
+      <p> DESCRIPTION OF THE PROJECT AND YOUR INVOLVEMENT</p>
+      <p> ACKNOWLEDGMENT OF OTHERS/ORGANIZATION</p>
+      <p> <a href="GITHUB PROJECT LINK">GitHub Project Link</a> </p>
+      <br>
+
+      <h1>Projects</h1>
+      <p><img src="https://athenahartigan.github.io/nonfollowers" alt="INSERT RELEVANT PICTURE" class="center_circle"></p>
+      <p> DESCRIPTION OF THE PROJECT AND YOUR INVOLVEMENT</p>
+      <p> ACKNOWLEDGMENT OF OTHERS/ORGANIZATION</p>
+      <p> <a href="GITHUB PROJECT LINK">GitHub Project Link</a> </p>
+      <br>
+      
+
+      <h1>Experience</h1>
+      <h3> POSITION @ ORGANIZATION DATES</h3>
+      <p> DESCRIPTION OF ACCOMPLISHMENTS AND EXPERIENCE</p>
+      <br>
+
+      <h1>Course Work - OPTIONALLY INCLUDE COURSEWORK TAKEN</h1>
+      <h3 style="color: #cfb53b;">WAKE</h3>
+      <ul>
+        <li> CSC 112 (Fundamentals of Computer Science), SEMESTER TAKEN. </li>
+        <li> CSC 111 (Introduction to Computer Science), SEMESTER TAKEN. </li> 
+      </ul>
+    </div>
+  </div>
+
+  <hr>
+  <footer style="position: relative">
+          <p>Styling and structure for this website was shamelessly taken from, <a href="https://2014mchidamb.github.io/">Muthu Chidambaram</a>.</p>
+  </footer>
 </body>
+
 </html>
