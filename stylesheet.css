@@ -62,14 +62,10 @@ h1, h2, h3 {
 
 .section_line {
   border-bottom: 1px solid rgb(19, 0, 78);
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .info_line{
   border-bottom: 1px dotted rgba(20, 0, 78, 0.221);
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 @media (prefers-color-scheme: dark) {
