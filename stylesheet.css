@@ -80,7 +80,6 @@ h1, h2, h3 {
   height: auto;
   margin-bottom: 7%;
   margin-top: 7%;
-  align-items: center;
 }
 
 .section_line {
@@ -89,6 +88,10 @@ h1, h2, h3 {
 
 .info_line{
   border-bottom: 1px dotted rgba(20, 0, 78, 0.221);
+}
+
+.spacing{
+  height: 1px;
 }
 
 @media (prefers-color-scheme: dark) {
