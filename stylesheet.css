@@ -86,10 +86,19 @@ h3 {
 
 .section_line {
   border-bottom: 1px solid rgb(19, 0, 78);
+  margin: 50px 0px;
 }
 
 .info_line {
   border-bottom: 1px dotted rgba(20, 0, 78, 0.221);
+  margin: 40px 0px;
+}
+
+.bullets,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
 }
 
 .spacing {
@@ -99,11 +108,10 @@ h3 {
 .job-header {
   display: flex;
   justify-content: space-between;
-  margin: 0px 0px;
 }
 
 .bullets li {
-  margin: 15px;
+  margin: 40px 0px 0px 18px;
 }
 
 @media (prefers-color-scheme: dark) {
