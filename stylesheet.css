@@ -21,8 +21,14 @@ body {
 h1,
 h2,
 h3 {
-  line-height: 1.2;
+  line-height: 1;
   font-weight: 600;
+}
+
+h3 {
+  margin-top: px;
+  margin-bottom: 30px;
+  line-height: 25px;
 }
 
 .container {
@@ -97,8 +103,8 @@ h3 {
 .bullets,
 ul,
 li {
-  margin: 0px;
-  padding: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
 }
 
 .spacing {
@@ -112,7 +118,12 @@ li {
 
 .bullets li {
   margin: 10px 0px 0px 18px;
-  line-height: 50px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 @media (prefers-color-scheme: dark) {
