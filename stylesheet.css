@@ -111,7 +111,8 @@ li {
 }
 
 .bullets li {
-  margin: 40px 0px 0px 18px;
+  margin: 10px 0px 0px 18px;
+  line-height: 50px;
 }
 
 @media (prefers-color-scheme: dark) {
