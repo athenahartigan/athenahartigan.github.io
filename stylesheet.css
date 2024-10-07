@@ -9,7 +9,7 @@ a:hover {
 
 body {
   margin: 38px auto;
-  max-width: 600px;
+  max-width: 800px;
   line-height: 1.5;
   font-size: 16px;
   color: rgb(19, 0, 78);
@@ -18,7 +18,9 @@ body {
   background-color: rgb(230, 248, 252);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   line-height: 1.2;
   font-weight: 600;
 }
@@ -47,7 +49,7 @@ h1, h2, h3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%; 
+  width: 40%;
   height: auto;
   border-radius: 50%;
 }
@@ -56,27 +58,27 @@ h1, h2, h3 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%; 
+  width: 100%;
   height: auto;
   margin-bottom: 7%;
   margin-top: 7%;
 }
 
-.tall_video{
+.tall_video {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 45%; 
+  width: 45%;
   height: auto;
   margin-bottom: 7%;
   margin-top: 7%;
 }
 
-.wide_video{
+.wide_video {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%; 
+  width: 100%;
   height: auto;
   margin-bottom: 7%;
   margin-top: 7%;
@@ -84,10 +86,32 @@ h1, h2, h3 {
 
 .section_line {
   border-bottom: 1px solid rgb(19, 0, 78);
+  margin: 50px 0px;
 }
 
-.info_line{
+.info_line {
   border-bottom: 1px dotted rgba(20, 0, 78, 0.221);
+  margin: 40px 0px;
+}
+
+.bullets,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+.spacing {
+  height: 1px;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bullets li {
+  margin: 40px 0px 0px 18px;
 }
 
 @media (prefers-color-scheme: dark) {
