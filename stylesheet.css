@@ -120,6 +120,16 @@ li {
   margin: 10px 0px 0px 18px;
 }
 
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
 ul {
   display: flex;
   flex-direction: column;
